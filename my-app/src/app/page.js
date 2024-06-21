@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Navbar } from "../components/section-1-navbar";
-// import { Hi } from "../components/section-2-hi";
-// import { Aboutme } from "../components/section-3-about-me";
+import { Hi } from "../components/section-2-hi";
+import { Aboutme } from "../components/section-3-about-me";
 // import { Experience } from "../components/section-4-experience";
 // import { Skills } from "../components/section-5-skills";
 // import { Work } from "../components/section-6-work";
@@ -13,9 +13,9 @@ export default function Home() {
     <div className="w-full h-screen flex justify-center">
       <div className="w-[1440px] h-screen flex flex-col items-center bg-stone-50">
         <Navbar />
-        {/* <Hi />
-      <Aboutme />
-      <Experience />
+        <Hi />
+        <Aboutme />
+        {/* <Experience />
       <Skills />
       <Work />
       <GetInTouch />
