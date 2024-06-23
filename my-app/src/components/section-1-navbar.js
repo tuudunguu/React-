@@ -14,7 +14,7 @@ export const Navbar = () => {
           </div>
           <div className="flex items-center space-x-4  ">
             <div>
-              <img src="/picture/sun.png" alt="Sun" />
+              <img src="/picture/Icon.png" alt="Sun" />
             </div>
             <div className=" flex justify-center items-center w-32 h-7 bg-[#111827] text-[#F9FAFB] rounded-xl">
               {" "}
