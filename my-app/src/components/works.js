@@ -6,7 +6,7 @@ export const Works = ({ worksBlacktitle, para }) => {
         {worksBlacktitle}
       </h2>
       <p className="text-[#4B5563] text-sm font-normal">{para}</p>
-      <div>
+      <div className="w-full h-[100px] flex flex-wrap gap-2 ">
         <Overview title="React" />
         <Overview title="Next.js" />
         <Overview title="Typescript" />
@@ -18,7 +18,7 @@ export const Works = ({ worksBlacktitle, para }) => {
         <Overview title="Storybook" />
         <Overview title="Git" />
       </div>
-      <img src="/picture/exit.png"></img>
+      <img src="/picture/exit.png" className="w-6"></img>
     </div>
   );
 };

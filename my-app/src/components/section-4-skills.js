@@ -3,9 +3,9 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { SiTypescript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 
-export const Experience = () => {
+export const Skills = () => {
   return (
-    <div className="w-full h-[560px] px-20 py-24 border-2 border-sky-500">
+    <div className="w-full h-[560px] px-20 py-24 ">
       <div className="w-full h-full flex flex-col px-8 gap-y-2">
         <div className="w-full h-[72px] flex flex-col items-center gap-y-4 ">
           <div>

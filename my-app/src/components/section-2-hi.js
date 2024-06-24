@@ -6,10 +6,10 @@ import { FiFigma } from "react-icons/fi";
 
 export const Hi = () => {
   return (
-    <div className="w-full h-[556px] px-20 py-24 border-2 border-sky-500">
-      <div className="w-full h-[100%]   px-8 gap-x-12 flex flex-row items-center">
-        <div className="flex flex-col gap-y-12  h-[100%] flex-1 ">
-          <div className="w-full h-[176px] flex flex-col gap-y-2">
+    <div className=" w-full h-[904px] px-4 py-16 lg:w-full lg:h-[556px] lg:px-20 lg:py-24 ">
+      <div className="w-full h-full    flex flex-col-reverse gap-y-12 border-2 border-rose-500 lg:w-full lg:h-full   lg:px-8 lg:gap-x-12 lg:flex lg:flex-row lg:items-center">
+        <div className="flex flex-col gap-y-12 justify-between  flex-1 ">
+          <div className="w-full  flex flex-col gap-y-2">
             <h1 className="text-[#111827] text-6xl font-bold  ">
               Hi, I’m Tom 👋
             </h1>
@@ -43,8 +43,8 @@ export const Hi = () => {
             </div>
           </div>
         </div>
-        <div className=" h-[100%] w-[568px]  pl-[248px]">
-          <div className="w-full h-[100%]  relative ">
+        <div className=" h-full flex flex-1  ">
+          <div className="w-[60%] h-full  relative m-right">
             <img
               src="/picture/Background.png "
               className="absolute right-0 bottom-0"

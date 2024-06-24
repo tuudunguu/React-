@@ -1,7 +1,7 @@
 import { Overview } from "../components/overview";
 export const Aboutme = () => {
   return (
-    <div className="w-full h-[826px] px-20 py-24 border-2 border-sky-500">
+    <div className="w-full h-[826px] px-20 py-24 bg-[#E5E7EB]">
       <div className="w-full h-[100%] flex flex-col  px-8 gap-y-2">
         <div className="w-full h-[28px] flex justify-center items-center">
           <Overview title="About me" />
