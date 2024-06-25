@@ -1,6 +1,6 @@
 export const Navbar = () => {
   return (
-    <div className="w-full  h-[68px]  px-20 py-4">
+    <div className="w-full  h-[68px]  ">
       <div className="w-full  h-full flex flex-row justify-between    lg:w-full  lg:h-full lg:flex lg:flex-row lg:justify-between   lg:px-9">
         <div className="">
           <img src="/picture/Tom.png" alt="Tom" />

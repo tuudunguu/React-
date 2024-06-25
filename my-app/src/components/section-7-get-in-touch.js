@@ -8,7 +8,7 @@ import { RiTwitterLine } from "react-icons/ri";
 import { LuCopy } from "react-icons/lu";
 export const GetInTouch = () => {
   return (
-    <div className="w-full h-[560px] px-20 py-24 ">
+    <div className="w-full h-[560px]  ">
       <div className="w-full h-full flex flex-col  items-center px-8 gap-y-12 ">
         <div className="w-full h-[72px] flex flex-col gap-y-1.5 ">
           <div className="w-full h-[28px] flex flex-col gap-y-4 justify-center items-center">

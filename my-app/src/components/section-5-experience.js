@@ -2,7 +2,7 @@ import { Overview } from "./overview";
 import { Upwork } from "./Upwork";
 export const Experience = () => {
   return (
-    <div className="w-full h-[1140px] px-20 py-24  bg-[#E5E7EB] ">
+    <div className="w-full h-[1140px]   bg-[#E5E7EB] ">
       <div className="w-full h-full flex flex-col px-48 gap-y-12 ">
         <div className="w-full h-[72px] flex flex-col gap-y-1.5 ">
           <div className="w-full h-[28px] flex justify-center items-center">

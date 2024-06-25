@@ -6,7 +6,7 @@ import { FiFigma } from "react-icons/fi";
 
 export const Hi = () => {
   return (
-    <div className=" w-full h-[904px] px-4 py-16 lg:w-full lg:h-[556px] lg:px-20 lg:py-24 ">
+    <div className=" w-full h-[904px] px-4 py-16 lg:w-full lg:h-[556px]  ">
       <div className="w-full h-full    flex flex-col-reverse gap-y-12  lg:w-full lg:h-full   lg:px-8 lg:gap-x-12 lg:flex lg:flex-row lg:items-center">
         <div className="flex flex-col gap-y-12 justify-between  flex-1 ">
           <div className="w-full  flex flex-col gap-y-2">

@@ -7,20 +7,20 @@ import { Skills } from "../components/section-4-skills";
 import { Work } from "../components/section-6-work";
 import { GetInTouch } from "../components/section-7-get-in-touch";
 import { Greetings } from "../components/section-8-greetings";
+import { Container } from "../components/container";
 
 export default function Home() {
   return (
-    <div className="max-w-[1440px] m-auto ">
-      <div className="w-full  flex flex-col items-center bg-stone-50 ">
-        <Navbar />
-        <Hi />
-        <Aboutme />
-        <Skills />
-        <Experience />
-        <Work />
-        <GetInTouch />
-        <Greetings />
-      </div>
+    <div className="text-black bg-white text-center">
+        <Container><Navbar /></Container>
+        <Container ><Hi /></Container>
+        <Container background="bg-[#E5E7EB]"><Aboutme /></Container>
+       <Container > <Skills /></Container>
+        <Container background="bg-[#E5E7EB]"><Experience /></Container>
+       <Container > <Work /></Container>
+        <Container ><GetInTouch /></Container>
+        <Container background="bg-[#E5E7EB]"><Greetings /></Container>
     </div>
+   
   );
 }

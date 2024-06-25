@@ -2,7 +2,7 @@ import { Overview } from "../components/overview";
 import { Works } from "../components/works";
 export const Work = () => {
   return (
-    <div className="w-full h-[1848px] px-20 py-24 ">
+    <div className="w-full h-[1848px]  ">
       <div className="w-full h-full flex flex-col px-16 gap-y-12">
         <div className="w-full h-[72px] flex flex-col gap-y-1.5 ">
           <div className="w-full h-[28px] flex justify-center items-center">

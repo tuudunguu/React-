@@ -5,8 +5,8 @@ import { FaReact } from "react-icons/fa";
 
 export const Skills = () => {
   return (
-    <div className="w-full h-[560px] px-20 py-24 lg:w-full lg:h-[560px] lg:px-20 lg:py-24">
-      <div className="w-full h-full flex flex-col px-8 gap-y-2">
+    <div className="w-full h-fit px-4 py-16 lg:w-full lg:h-[560px] ">
+      <div className="w-full h-full flex flex-col px-8 gap-y-6 lg:w-full lg:h-full lg:flex lg:flex-col  lg:gap-y-2">
         <div className="w-full h-[72px] flex flex-col items-center gap-y-4 ">
           <div>
             <Overview title="Skills" />
@@ -17,7 +17,7 @@ export const Skills = () => {
             </p>
           </div>
         </div>
-        <div className="w-full h-screen flex flex-col gap-y-12 ">
+        <div className="w-full h-screen flex flex-col gap-y-12 lg:w-full lg:h-full lg:flex lg:flex-col lg:gap-y-12 ">
           <div className="flex flex-wrap gap-[82px]">
             <div className="flex flex-col gap-y-[8px] items-center">
               <IoLogoJavascript color={"#4B5563"} size={75} />
