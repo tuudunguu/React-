@@ -1,26 +1,26 @@
 import { Overview } from "../components/overview";
 export const Aboutme = () => {
   return (
-    <div className="w-full h-[826px] px-20 py-24 bg-[#E5E7EB]">
-      <div className="w-full h-[100%] flex flex-col  px-8 gap-y-2">
+    <div className="w-full h-fit px-4 py-16 bg-[#E5E7EB] lg:w-full lg:h-[826px] lg:px-20 lg:py-24 lg:bg-[#E5E7EB]">
+      <div className="w-full h-[100%] flex flex-col   gap-y-6 lg:w-full lg:h-[100%] lg:flex lg:flex-col  lg:px-8 lg:gap-y-12">
         <div className="w-full h-[28px] flex justify-center items-center">
           <Overview title="About me" />
         </div>
 
-        <div className=" w-full h-[100%] flex flex-row justify-between ">
-          <div className=" w-[584px] h-[100%] flex flex-row  pb-[80px] pr-[144px]">
-            <div className="w-full h-[100%]  relative ">
+        <div className=" w-full h-full flex flex-col  gap-y-12 items-center lg:w-full lg:h-[100%] lg:flex lg:flex-row lg:justify-between">
+          <div className=" w-full  flex justify-center items-center   lg:w-[584px] lg:h-[100%] lg:flex lg:flex-row  lg:pb-[80px] lg:pr-[144px]">
+            <div className="w-[320px] h-[380px] flex justify-center relative lg:w-full lg:h-[100%]  lg:relative ">
               <img
                 src="/picture/Background.png "
-                className="w-[400px] absolute left-0 bottom-0"
+                className="w-[320px] h-[360px] bottom-0 absolute   lg:w-[400px] lg:absolute lg:left-0 lg:bottom-0"
               ></img>
               <img
                 src="/picture/Pic.png "
-                className="w-[400px] absolute right-0"
+                className="w-[280px] h-[360px] absolute  lg:w-[440px] lg:h-[520px] lg:absolute lg:right-0"
               ></img>
             </div>
           </div>
-          <div className=" w-[584px] h-[100%] flex flex-col gap-y-6 ">
+          <div className=" w-full h-fit flex flex-col gap-y-6 lg:w-[584px] lg:h-[100%] lg:flex lg:flex-col lg:gap-y-6">
             <div>
               <h1 className="text-black text-3xl font-bold ">
                 Curious about me? Here you have it:

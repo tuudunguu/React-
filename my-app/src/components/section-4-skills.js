@@ -5,7 +5,7 @@ import { FaReact } from "react-icons/fa";
 
 export const Skills = () => {
   return (
-    <div className="w-full h-[560px] px-20 py-24 ">
+    <div className="w-full h-[560px] px-20 py-24 lg:w-full lg:h-[560px] lg:px-20 lg:py-24">
       <div className="w-full h-full flex flex-col px-8 gap-y-2">
         <div className="w-full h-[72px] flex flex-col items-center gap-y-4 ">
           <div>
